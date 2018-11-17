@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F48CFCB021A0C95A003E5A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCAF21A0C95A003E5A9B /* AppDelegate.swift */; };
+		F48CFCB221A0C95A003E5A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCB121A0C95A003E5A9B /* ViewController.swift */; };
+		F48CFCB521A0C95A003E5A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CFCB321A0C95A003E5A9B /* Main.storyboard */; };
+		F48CFCB721A0C95C003E5A9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48CFCB621A0C95C003E5A9B /* Assets.xcassets */; };
+		F48CFCBA21A0C95C003E5A9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CFCB821A0C95C003E5A9B /* LaunchScreen.storyboard */; };
+		F48CFCC521A0C95C003E5A9B /* Alcohol_DiaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCC421A0C95C003E5A9B /* Alcohol_DiaryTests.swift */; };
+		F48CFCD021A0C95C003E5A9B /* Alcohol_DiaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCCF21A0C95C003E5A9B /* Alcohol_DiaryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F48CFCC121A0C95C003E5A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48CFCA421A0C959003E5A9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48CFCAB21A0C95A003E5A9B;
+			remoteInfo = "Alcohol Diary";
+		};
+		F48CFCCC21A0C95C003E5A9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F48CFCA421A0C959003E5A9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F48CFCAB21A0C95A003E5A9B;
+			remoteInfo = "Alcohol Diary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F48CFCAC21A0C95A003E5A9B /* Alcohol Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48CFCAF21A0C95A003E5A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F48CFCB121A0C95A003E5A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F48CFCB421A0C95A003E5A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F48CFCB621A0C95C003E5A9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F48CFCB921A0C95C003E5A9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F48CFCBB21A0C95C003E5A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48CFCC021A0C95C003E5A9B /* Alcohol DiaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol DiaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48CFCC421A0C95C003E5A9B /* Alcohol_DiaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_DiaryTests.swift; sourceTree = "<group>"; };
+		F48CFCC621A0C95C003E5A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F48CFCCB21A0C95C003E5A9B /* Alcohol DiaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alcohol DiaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48CFCCF21A0C95C003E5A9B /* Alcohol_DiaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alcohol_DiaryUITests.swift; sourceTree = "<group>"; };
+		F48CFCD121A0C95C003E5A9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F48CFCA921A0C95A003E5A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCBD21A0C95C003E5A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCC821A0C95C003E5A9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F48CFCA321A0C959003E5A9B = {
+			isa = PBXGroup;
+			children = (
+				F48CFCAE21A0C95A003E5A9B /* Alcohol Diary */,
+				F48CFCC321A0C95C003E5A9B /* Alcohol DiaryTests */,
+				F48CFCCE21A0C95C003E5A9B /* Alcohol DiaryUITests */,
+				F48CFCAD21A0C95A003E5A9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F48CFCAD21A0C95A003E5A9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F48CFCAC21A0C95A003E5A9B /* Alcohol Diary.app */,
+				F48CFCC021A0C95C003E5A9B /* Alcohol DiaryTests.xctest */,
+				F48CFCCB21A0C95C003E5A9B /* Alcohol DiaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F48CFCAE21A0C95A003E5A9B /* Alcohol Diary */ = {
+			isa = PBXGroup;
+			children = (
+				F48CFCAF21A0C95A003E5A9B /* AppDelegate.swift */,
+				F48CFCB121A0C95A003E5A9B /* ViewController.swift */,
+				F48CFCB321A0C95A003E5A9B /* Main.storyboard */,
+				F48CFCB621A0C95C003E5A9B /* Assets.xcassets */,
+				F48CFCB821A0C95C003E5A9B /* LaunchScreen.storyboard */,
+				F48CFCBB21A0C95C003E5A9B /* Info.plist */,
+			);
+			path = "Alcohol Diary";
+			sourceTree = "<group>";
+		};
+		F48CFCC321A0C95C003E5A9B /* Alcohol DiaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				F48CFCC421A0C95C003E5A9B /* Alcohol_DiaryTests.swift */,
+				F48CFCC621A0C95C003E5A9B /* Info.plist */,
+			);
+			path = "Alcohol DiaryTests";
+			sourceTree = "<group>";
+		};
+		F48CFCCE21A0C95C003E5A9B /* Alcohol DiaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F48CFCCF21A0C95C003E5A9B /* Alcohol_DiaryUITests.swift */,
+				F48CFCD121A0C95C003E5A9B /* Info.plist */,
+			);
+			path = "Alcohol DiaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F48CFCAB21A0C95A003E5A9B /* Alcohol Diary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48CFCD421A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol Diary" */;
+			buildPhases = (
+				F48CFCA821A0C95A003E5A9B /* Sources */,
+				F48CFCA921A0C95A003E5A9B /* Frameworks */,
+				F48CFCAA21A0C95A003E5A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alcohol Diary";
+			productName = "Alcohol Diary";
+			productReference = F48CFCAC21A0C95A003E5A9B /* Alcohol Diary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F48CFCBF21A0C95C003E5A9B /* Alcohol DiaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48CFCD721A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol DiaryTests" */;
+			buildPhases = (
+				F48CFCBC21A0C95C003E5A9B /* Sources */,
+				F48CFCBD21A0C95C003E5A9B /* Frameworks */,
+				F48CFCBE21A0C95C003E5A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48CFCC221A0C95C003E5A9B /* PBXTargetDependency */,
+			);
+			name = "Alcohol DiaryTests";
+			productName = "Alcohol DiaryTests";
+			productReference = F48CFCC021A0C95C003E5A9B /* Alcohol DiaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F48CFCCA21A0C95C003E5A9B /* Alcohol DiaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F48CFCDA21A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol DiaryUITests" */;
+			buildPhases = (
+				F48CFCC721A0C95C003E5A9B /* Sources */,
+				F48CFCC821A0C95C003E5A9B /* Frameworks */,
+				F48CFCC921A0C95C003E5A9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F48CFCCD21A0C95C003E5A9B /* PBXTargetDependency */,
+			);
+			name = "Alcohol DiaryUITests";
+			productName = "Alcohol DiaryUITests";
+			productReference = F48CFCCB21A0C95C003E5A9B /* Alcohol DiaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F48CFCA421A0C959003E5A9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Simon Sawert";
+				TargetAttributes = {
+					F48CFCAB21A0C95A003E5A9B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F48CFCBF21A0C95C003E5A9B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F48CFCAB21A0C95A003E5A9B;
+					};
+					F48CFCCA21A0C95C003E5A9B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F48CFCAB21A0C95A003E5A9B;
+					};
+				};
+			};
+			buildConfigurationList = F48CFCA721A0C959003E5A9B /* Build configuration list for PBXProject "Alcohol Diary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F48CFCA321A0C959003E5A9B;
+			productRefGroup = F48CFCAD21A0C95A003E5A9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F48CFCAB21A0C95A003E5A9B /* Alcohol Diary */,
+				F48CFCBF21A0C95C003E5A9B /* Alcohol DiaryTests */,
+				F48CFCCA21A0C95C003E5A9B /* Alcohol DiaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F48CFCAA21A0C95A003E5A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CFCBA21A0C95C003E5A9B /* LaunchScreen.storyboard in Resources */,
+				F48CFCB721A0C95C003E5A9B /* Assets.xcassets in Resources */,
+				F48CFCB521A0C95A003E5A9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCBE21A0C95C003E5A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCC921A0C95C003E5A9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F48CFCA821A0C95A003E5A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CFCB221A0C95A003E5A9B /* ViewController.swift in Sources */,
+				F48CFCB021A0C95A003E5A9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCBC21A0C95C003E5A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CFCC521A0C95C003E5A9B /* Alcohol_DiaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F48CFCC721A0C95C003E5A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48CFCD021A0C95C003E5A9B /* Alcohol_DiaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F48CFCC221A0C95C003E5A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48CFCAB21A0C95A003E5A9B /* Alcohol Diary */;
+			targetProxy = F48CFCC121A0C95C003E5A9B /* PBXContainerItemProxy */;
+		};
+		F48CFCCD21A0C95C003E5A9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F48CFCAB21A0C95A003E5A9B /* Alcohol Diary */;
+			targetProxy = F48CFCCC21A0C95C003E5A9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F48CFCB321A0C95A003E5A9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48CFCB421A0C95A003E5A9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F48CFCB821A0C95C003E5A9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F48CFCB921A0C95C003E5A9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F48CFCD221A0C95C003E5A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F48CFCD321A0C95C003E5A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F48CFCD521A0C95C003E5A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F48CFCD621A0C95C003E5A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol Diary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-Diary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F48CFCD821A0C95C003E5A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol DiaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol Diary.app/Alcohol Diary";
+			};
+			name = Debug;
+		};
+		F48CFCD921A0C95C003E5A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol DiaryTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-DiaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcohol Diary.app/Alcohol Diary";
+			};
+			name = Release;
+		};
+		F48CFCDB21A0C95C003E5A9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alcohol Diary";
+			};
+			name = Debug;
+		};
+		F48CFCDC21A0C95C003E5A9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Alcohol DiaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simonsawert.Alcohol-DiaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Alcohol Diary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F48CFCA721A0C959003E5A9B /* Build configuration list for PBXProject "Alcohol Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CFCD221A0C95C003E5A9B /* Debug */,
+				F48CFCD321A0C95C003E5A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48CFCD421A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol Diary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CFCD521A0C95C003E5A9B /* Debug */,
+				F48CFCD621A0C95C003E5A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48CFCD721A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol DiaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CFCD821A0C95C003E5A9B /* Debug */,
+				F48CFCD921A0C95C003E5A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F48CFCDA21A0C95C003E5A9B /* Build configuration list for PBXNativeTarget "Alcohol DiaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F48CFCDB21A0C95C003E5A9B /* Debug */,
+				F48CFCDC21A0C95C003E5A9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F48CFCA421A0C959003E5A9B /* Project object */;
+}
