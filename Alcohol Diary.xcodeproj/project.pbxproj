@@ -10,6 +10,7 @@
 		021A4243B4B1135F46EA7C3D /* Pods_Alcohol_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCDEFD5AC60817AD9912954 /* Pods_Alcohol_Diary.framework */; };
 		057444A468DB386D87D347BF /* Pods_Alcohol_DiaryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B4006ABC657C1F9DDFE4E2 /* Pods_Alcohol_DiaryUITests.framework */; };
 		3145982B4846DFF9AE6B39D2 /* Pods_Alcohol_DiaryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C067CCCD7A405353801AADC3 /* Pods_Alcohol_DiaryTests.framework */; };
+		F43C5A4521A17DDE00A4F9B1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43C5A4421A17DDE00A4F9B1 /* CustomCell.swift */; };
 		F48CFCB021A0C95A003E5A9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCAF21A0C95A003E5A9B /* AppDelegate.swift */; };
 		F48CFCB221A0C95A003E5A9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F48CFCB121A0C95A003E5A9B /* ViewController.swift */; };
 		F48CFCB521A0C95A003E5A9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48CFCB321A0C95A003E5A9B /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		C067CCCD7A405353801AADC3 /* Pods_Alcohol_DiaryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alcohol_DiaryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4B4006ABC657C1F9DDFE4E2 /* Pods_Alcohol_DiaryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alcohol_DiaryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA149326707835F10E7B5383 /* Pods-Alcohol Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alcohol Diary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alcohol Diary/Pods-Alcohol Diary.debug.xcconfig"; sourceTree = "<group>"; };
+		F43C5A4421A17DDE00A4F9B1 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		F48CFCAC21A0C95A003E5A9B /* Alcohol Diary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alcohol Diary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48CFCAF21A0C95A003E5A9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F48CFCB121A0C95A003E5A9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 				F48CFCB621A0C95C003E5A9B /* Assets.xcassets */,
 				F48CFCB821A0C95C003E5A9B /* LaunchScreen.storyboard */,
 				F48CFCBB21A0C95C003E5A9B /* Info.plist */,
+				F43C5A4421A17DDE00A4F9B1 /* CustomCell.swift */,
 			);
 			path = "Alcohol Diary";
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48CFCB221A0C95A003E5A9B /* ViewController.swift in Sources */,
+				F43C5A4521A17DDE00A4F9B1 /* CustomCell.swift in Sources */,
 				F48CFCB021A0C95A003E5A9B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
